@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f4f4; */
+    /* background-image: url(./2152177.jpg); */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  }
+  
+  h2 {
+    text-align: center;
+    color: hsl(332, 100%, 73%);
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .custom-alert{
+    color: #39df3e;
+  }
+  /* Form Container */
+  form {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #006BFF;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form textarea,
+  form select,
+  form input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form input[type="file"] {
+    padding: 5px;
+  }
+  
+  
+  form button {
+    display: inline-block;
+    background-color: #39df3e;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #bff0c1;
+  }
+  
+  /* Dynamic Field Styling */
+  /* .dynamic-field-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .dynamic-field-group input[type="text"],
+  .dynamic-field-group input[type="number"] {
+    width: calc(33.33% - 10px);
+  }
+  
+  .dynamic-field-group button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dynamic-field-group button:hover {
+    background-color: #e53935;
+  }
+  
+  form .add-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  form .add-button:hover {
+    background-color: #1e88e5;
+  }
+   */
+  /* Product Listing Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+  table thead th {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  table tbody td button {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 5px 10px; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left:10px;
+    transition: background-color 0.3s;
+  }
+  .edit-btn{
+    background-color: #f32998;
+  }
+  .edit-btn:hover{
+    background-color: #f5a2c8;
+  }
+  .delete-btn{
+    background-color: red;
+  }
+  .delete-btn:hover{
+    background-color: rgb(223, 102, 102);
+  }
+  /* table tbody td button:hover {
+    background-color: #45a049;
+  }
+  
+  table tbody td button.delete {
+    background-color: #f44336;
+  }
+  
+  table tbody td button.delete:hover {
+    background-color: #e53935;
+  }
+   */
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    form, table {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .dynamic-field-group {
+      flex-direction: column;
+    }
+  
+    .dynamic-field-group input[type="text"],
+    .dynamic-field-group input[type="number"] {
+      width: 100%;
+    }
+  } */
+  
